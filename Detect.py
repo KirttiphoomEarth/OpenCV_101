@@ -23,7 +23,7 @@ import numpy
 
 # cv2.destroyAllWindows()
 #==============================================================================
-#========================= Detect 2  Face Detection from Photo  ===========================
+#================= Detect 2  Face Detection from Photo  =======================
 #Error found 3/5 member T-T
 img = cv2.imread("image/g_idle.jpg")
 img = cv2.resize(img, (800,500))

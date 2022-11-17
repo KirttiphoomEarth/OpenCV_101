@@ -15,7 +15,7 @@ import datetime
 # cv2.waitKey(0)
 # cv2.destroyAllWindows()
 #==============================================================================
-#=================== Drawing 2 Draw Rectangle  =====================================
+#=================== Drawing 2 Draw Rectangle  ================================
 # img = cv2.imread("image/mark_sad_makmak.jpg")
 
 # imgsize = cv2.resize(img, (700,700))
@@ -31,7 +31,7 @@ import datetime
 # cv2.reslase()
 # cv2.destroyAllWindows()
 #==============================================================================
-#=================== Drawing 3 Draw Circle  =====================================
+#=================== Drawing 3 Draw Circle  ===================================
 # img = cv2.imread("image/mark_sad_makmak.jpg")
 
 # imgsesize = cv2.resize(img, (700, 700))
@@ -59,7 +59,7 @@ import datetime
 # cv2.waitKey(0)
 # cv2.destroyAllWindows()
 #==============================================================================
-#=================== Drawing 5 Time in Video/Camera  =====================================
+#=================== Drawing 5 Time in Video/Camera  ==========================
 cap = cv2.VideoCapture("video/video_test.mp4") # 0 = Camera
 
 while(cap.isOpened()) :

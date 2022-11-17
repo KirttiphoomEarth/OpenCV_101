@@ -39,7 +39,7 @@ import numpy
 # cv2.waitKey(0)
 # cv2.destroyAllWindows() 
 #==============================================================================
-#=================== Mouser 3 Event pixel new windows =====================================
+#=================== Mouser 3 Event pixel new windows =========================
 # def clickPosition(event, x, y, flags, param):
 #     if event == cv2.EVENT_LBUTTONDOWN:
 #         blue    = img[y, x, 0]                #ตำแหน่ง y x index 0 [B, G, R]
@@ -58,7 +58,7 @@ import numpy
 # cv2.waitKey(0)
 # cv2.destroyAllWindows() 
 #==============================================================================
-#=================== Mouser 4 Event Connet Point =====================================
+#=================== Mouser 4 Event Connet Point ==============================
 point = []
 def clickPosition(event, x, y, flags, param):
     if event == cv2.EVENT_LBUTTONDOWN:
